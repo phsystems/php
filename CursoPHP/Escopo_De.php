@@ -10,11 +10,13 @@ $nome = "Pedro henrique";
 function teste(){
     global $nome;
     echo $nome;
+    echo "<br>";
 }
 function teste2(){
     $nome = "Hcode";
     echo $nome . "Alguma coisa";
     echo $nome .= "treinamento";
+    echo "<br>";
 }
 teste();
 teste2();
